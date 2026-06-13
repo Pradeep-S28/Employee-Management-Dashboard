@@ -1,0 +1,11 @@
+npm packages
+1. npm install bootstrap
+2. npm i bootstrap-icons
+
+dev dependencies packages
+1. npm install gh-pages --save-dev
+
+cdn linked
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "bootstrap-icons/font/bootstrap-icons.css";
