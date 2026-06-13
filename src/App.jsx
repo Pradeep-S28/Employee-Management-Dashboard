@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h1>Employee Management Dashboard</h1>
+      <h1 className="text-primary">Employee Management</h1>
     </>
   );
 }
