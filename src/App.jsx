@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./App.css";
+import "../src/styles/breakpoints.css";
 import Navbar from "./components/Navbar";
-import Cards from "./components/Cards";
+import Card from "./components/Card";
 
 function App() {
   //const [totalEmployees, setTotalEmployees] = useState(0);
@@ -37,6 +38,21 @@ function App() {
     <>
       {/* navbar top */}
       <Navbar />
+
+      <div className="container mt-5">
+        <div className="row g-3">
+          {cardData.map((card, index) => (
+            <div className="col-12 col-sm-6 col-lg-3" key={index}>
+              <Card
+                title={card.title}
+                count={card.count}
+                icon={card.icon}
+                bgClass={card.bgClass}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
     </>
   );
 }
