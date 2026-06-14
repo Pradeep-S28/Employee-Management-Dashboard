@@ -1,6 +1,7 @@
 npm packages
 1. npm install bootstrap
 2. npm i bootstrap-icons
+3. npm install axios
 
 dev dependencies packages
 1. npm install gh-pages --save-dev
