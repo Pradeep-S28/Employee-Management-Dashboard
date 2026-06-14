@@ -1,13 +1,16 @@
 import React from "react";
 
-const Card = ({ title, count, icon, bgClass }) => {
+const Card = ({ title, count, icon, bgClass, badgeText }) => {
   return (
     <div
       className={`card text-white shadow-sm border-0 position-relative ${bgClass}`}
     >
-      <span className="badge bg-light text-dark position-absolute top-0 end-0 m-2">
-        {title == "New Joiners" ? "Since Jan 2026" : ""}
-      </span>
+      {badgeText && (
+        <span className="badge bg-light text-dark position-absolute top-0 end-0 m-2">
+          {badgeText}
+        </span>
+      )}
+
       <div className="card-body">
         <div className="d-flex justify-content-between align-items-center">
           <div>

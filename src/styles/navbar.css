@@ -1,0 +1,9 @@
+.navbar {
+  position: relative;
+  z-index: 9999;
+}
+
+.navbar .container-fluid {
+  position: relative;
+  z-index: 10000;
+}

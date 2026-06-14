@@ -1,15 +1,21 @@
 import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ onAddEmployee }) => {
   return (
-    <div>
-      <nav className="navbar bg-body-tertiary">
-        <div className="container-fluid">
-          <a className="navbar-brand">Employee dashboard</a>
-          <button className="btn btn-primary">Add Employee</button>
-        </div>
-      </nav>
-    </div>
+    <nav className="navbar bg-body-tertiary shadow-sm app-navbar">
+      <div className="container-fluid">
+        <span className="navbar-brand fw-bold">Employee Dashboard</span>
+
+        <button
+          type="button"
+          className="btn btn-primary"
+          onClick={onAddEmployee}
+        >
+          <i className="bi bi-plus-circle me-2"></i>
+          Add Employee
+        </button>
+      </div>
+    </nav>
   );
 };
 
