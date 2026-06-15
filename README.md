@@ -131,14 +131,14 @@ The exported Postman collection file is available inside the `postman` folder.
 
 ## Screenshots
 
-Add screenshots for:
-
 ```txt
-Dashboard View
-Employee Table
+Dashboard View & Employee Table
 Form Validation
 Mobile Responsive View
 ```
+<img width="1919" height="678" alt="Dashboard   table" src="https://github.com/user-attachments/assets/f7f6753d-3e60-4374-b3f7-4645f374e392" />
+<img width="1309" height="576" alt="Form Validation" src="https://github.com/user-attachments/assets/d9fdf8fc-7143-4e04-9bfc-5810706e8260" />
+<img width="215" height="584" alt="mobile view" src="https://github.com/user-attachments/assets/4a1b8fb5-ddd8-4114-9e15-ed8fa2207307" />
 
 ## GitHub Repository
 
@@ -149,7 +149,7 @@ https://github.com/Pradeep-S28/Employee-Management-Dashboard
 ## Live Demo
 
 ```txt
-Add your GitHub Pages live link here
+https://pradeep-s28.github.io/Employee-Management-Dashboard/
 ```
 
 ## Author
