@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import "./styles/breakpoints.css";
+// import "./styles/breakpoints.css";
 
 import Navbar from "./components/Navbar";
 import Card from "./components/Card";
@@ -45,6 +45,7 @@ function App() {
         const users = await fetchUsers();
 
         const formattedEmployees = users.map((user, index) => ({
+          // console.log(user)
           employeeId: `EMP${String(user.id).padStart(3, "0")}`,
           name: user.name,
           email: user.email,
