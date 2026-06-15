@@ -1,0 +1,30 @@
+{
+  "info": {
+    "_postman_id": "85065215-6417-4a8c-bff6-1fcb2b88fb80",
+    "name": "Employee Management Dashboard API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "37668415"
+  },
+  "item": [
+    {
+      "name": "Get Employees",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://jsonplaceholder.typicode.com/users",
+          "protocol": "https",
+          "host": [
+            "jsonplaceholder",
+            "typicode",
+            "com"
+          ],
+          "path": [
+            "users"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
