@@ -1,17 +1,17 @@
 # Employee Management Dashboard
 
-A responsive Employee Management Dashboard built using React.js. This project was developed as part of a frontend assignment to demonstrate component design, API integration, form handling, validation, search, filter, pagination, and responsive UI implementation.
+A responsive Employee Management Dashboard built using React.js. This project includes dashboard cards, employee table, API integration, search, filter, pagination, add/edit employee form, and form validation.
 
 ## Project Overview
 
-The Employee Management Dashboard allows users to view employee statistics, display employee records in a table, search and filter employees, and perform add/edit operations using a form.
+This application fetches employee data from the JSONPlaceholder API and displays it in an employee dashboard.
 
-Employee data is fetched from the JSONPlaceholder API and converted into employee records by adding custom fields such as department, designation, joining date, and status.
+Since the API provides user data, extra employee fields like department, designation, joining date, and status are added inside the React application.
 
 ## Tech Stack
 
 - React.js
-- JavaScript ES6+
+- JavaScript
 - HTML5
 - CSS3
 - Bootstrap
@@ -21,34 +21,31 @@ Employee data is fetched from the JSONPlaceholder API and converted into employe
 
 ## Features Implemented
 
-- Dashboard overview cards
+- Dashboard cards
   - Total Employees
   - Active Employees
   - Employees on Leave
   - New Joiners
-- API integration using Axios
-- Fetch employee data from JSONPlaceholder API
-- Loading indicator during API call
-- Error handling with user-friendly message
+- Fetch employee data from API
+- Loading indicator
+- Error handling
 - Responsive employee table
 - Search by employee name
 - Filter by department
 - Pagination with 5 records per page
-- Add employee functionality
-- Edit employee functionality
+- Add employee
+- Edit employee
 - Form validation
-  - Required field validation
-  - Email format validation
+  - Required fields
+  - Valid email format
   - Phone number validation
-- Responsive design for desktop, tablet, and mobile devices
+- Responsive design for desktop, tablet, and mobile
 
 ## API Used
 
 ```txt
 https://jsonplaceholder.typicode.com/users
 ```
-
-The API provides user data such as name, email, phone number, and company details. Additional employee fields like department, designation, joining date, and status are added inside the React application for dashboard display.
 
 ## Setup Instructions
 
@@ -58,7 +55,7 @@ The API provides user data such as name, email, phone number, and company detail
 git clone https://github.com/Pradeep-S28/Employee-Management-Dashboard.git
 ```
 
-### 2. Navigate to the project folder
+### 2. Go to project folder
 
 ```bash
 cd Employee-Management-Dashboard
@@ -70,13 +67,13 @@ cd Employee-Management-Dashboard
 npm install
 ```
 
-### 4. Start the development server
+### 4. Run the project
 
 ```bash
 npm run dev
 ```
 
-### 5. Open the project in browser
+### 5. Open in browser
 
 ```txt
 http://localhost:5173
@@ -86,6 +83,9 @@ http://localhost:5173
 
 ```txt
 Employee-Management-Dashboard
+├── postman
+│   └── Employee Management Dashboard API.postman_collection.json
+│
 ├── public
 ├── src
 │   ├── assets
@@ -110,45 +110,28 @@ Employee-Management-Dashboard
 ├── .gitignore
 ├── eslint.config.js
 ├── index.html
+├── notes.txt
 ├── package-lock.json
 ├── package.json
 ├── README.md
 └── vite.config.js
 ```
 
-## Components
-
-### Navbar
-
-Displays the application title and Add Employee button.
-
-### Card
-
-Reusable dashboard card component used to display employee metrics.
-
-### EmployeeTable
-
-Displays employee records in a responsive table with search, filter, pagination, and edit option.
-
-### EmployeeForm
-
-Handles add and edit employee functionality with validation.
-
 ## Postman Collection
 
-The API endpoint was tested using Postman.
+The API was tested using Postman.
 
-Request used:
+Request included:
 
 ```txt
 GET https://jsonplaceholder.typicode.com/users
 ```
 
-A Postman collection can be exported and included with the project submission.
+The exported Postman collection file is available inside the `postman` folder.
 
 ## Screenshots
 
-Add screenshots for the following before final submission:
+Add screenshots for:
 
 ```txt
 Dashboard View
@@ -165,10 +148,8 @@ https://github.com/Pradeep-S28/Employee-Management-Dashboard
 
 ## Live Demo
 
-Add your GitHub Pages live link here after deployment.
-
 ```txt
-https://pradeep-s28.github.io/Employee-Management-Dashboard/
+Add your GitHub Pages live link here
 ```
 
 ## Author
